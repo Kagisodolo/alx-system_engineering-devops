@@ -1,9 +1,6 @@
 #!/bin/bash
 FILE="/etc/passwd"
-echo "*** File - $FILE contents ***"
-echo "##"
-echo "# User Database"
-echo "#"
+echo -e "*** File - $FILE contents ***\n##\n# User Database\n#"
 echo "# Note that this file is consulted directly only when the system is running"
 echo "# in single-user mode. At other times this information is provided by"
 echo "# Open Directory."
