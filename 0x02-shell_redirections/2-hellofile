@@ -1,3 +1,4 @@
 #!/bin/bash
-less /etc/passwd
-
+FILE="/etc/passwd"
+echo "*** File - $FILE contents ***"
+cat $FILE
